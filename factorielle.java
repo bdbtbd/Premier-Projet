@@ -3,7 +3,7 @@ public class factorielle {
         int factoriel = 1;
         int valeur;
         valeur = Integer.parseInt(args[0]);
-        while (valeur > 1) {
+        while (valeur > 2) {
                factoriel = factoriel * valeur;
                valeur = valeur - 1;
         }
